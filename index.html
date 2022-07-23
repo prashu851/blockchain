@@ -1,0 +1,549 @@
+<html>
+
+<head>
+    <link rel="shortcut icon" type="image/x-icon" href="images/blockchain.png" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <title>Blockchain.com | The Most Trusted Crypto Wallet & Exchange</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div>
+        <a href="#" class="link">
+            Blockchain.com is the first digital asset platform in American football | Read more
+        </a>
+    </div>
+    <div class="header">
+        <div class="header-content">
+            <div class="logo">
+                <img class="blockchain-img" src="images/blockchain.png" height=40 width=40>
+                <h2 style="color:white">Blockchain</h2>
+                <h2 style="color:#656b75">.com</h2>
+            </div class="options-section">
+            <nav>
+            <div class="options">
+                <ul class="options-list">
+                    <li><a href="/" class="option">Wallet</a></li>
+                    <li><a href="/" class="option">Exchange</a></li>
+                    <li><a href="/" class="option">Explorer</a></li>
+                    <li><a href="/" class="option">Institutional</a></li>
+                    <li class="tool-tip"><i class="fa fa-ellipsis" style="color:white;font-size: 20px;cursor: pointer;padding: 0.75rem;opacity: 0.75;"></i>
+                    
+                    </li>
+                </ul>
+            </div>
+        </nav>
+            <div class="btns">
+                <a href="#" class="search"><i class="fa fa-magnifying-glass" style="color:white;cursor: pointer;"></i></a>
+                <button class="login-btn">Log In</button>
+                <button class="signup-btn">Sign Up</button>
+                <button class="filter-btn" onclick="openSideBar()"><img src="images/filter.svg" class="filter"/></button>
+            </div>
+        </div>
+    </div>
+    <div class="crypto-info">
+    <div class="crypto-content">
+<div class="div-content" style="max-width: 45rem;">
+        <h1 class="main-heading">The world's most popular way to buy, sell, and trade crypto</h1>
+        <p class="sub-heading">Trusted by millions since 2011 with over $1 Trillion in crypto transactions.</p>
+    </div>
+    <br>
+    <div class="div-buttons">
+        <a href="#" class="get-started-btn">Get Started</a>
+        <a href ="#" class="blockchain-login-btn">Log In</a>
+    </div>
+</div>
+</div>
+<div class="cards-container">
+    <div class="cards-position">
+        <a href="#" class="card bitcoin-card">
+            <div class="card-header">
+                <img src="images/prices-btc.svg" />
+                <button class="buy-btn">Buy</button>
+                <button class="trade-btn">Trade</button>
+            </div>
+            <div class="card-info">
+                <p class="fullname">Bitcoin</p>
+                <p class="shortname">BTC</p>
+            </div>
+            <div class="card-value">
+                <p class="price">$30,678.75</p>
+                <p class="percentage">-2.49%</p>
+            </div>
+        </a>
+        <a href="#" class="card ethereum-card">
+            <div class="card-header">
+                <img src="images/prices-eth.svg" />
+                <button class="buy-btn">Buy</button>
+                <button class="trade-btn">Trade</button>
+            </div>
+            <div class="card-info">
+                <p class="fullname">Ethereum</p>
+                <p class="shortname">ETH</p>
+            </div>
+            <div class="card-value">
+                <p class="price">$1833.07</p>
+                <p class="percentage">-1.96%</p>
+            </div>
+        </a>
+        <a href="#" class="card stellar-card">
+            <div class="card-header">
+                <img src="images/prices-xlm.svg" />
+                <button class="buy-btn">Buy</button>
+                <button class="trade-btn">Trade</button>
+            </div>
+            <div class="card-info">
+                <p class="fullname">Stellar</p>
+                <p class="shortname">XLM</p>
+            </div>
+            <div class="card-value">
+                <p class="price">$0.14</p>
+                <p class="percentage">-2.26%</p>
+            </div>
+        </a>
+        <a href="#" class="card deso-card">
+            <div class="card-header">
+                <img src="images/prices-deso.png" width="40" height="40" />
+                <button class="new-btn">New</button>
+                <button class="trade-btn">Trade</button>
+            </div>
+            <div class="card-info">
+                <p class="fullname">DeSo</p>
+                <p class="shortname">DESO</p>
+            </div>
+            <div class="card-value">
+                <p class="price">$9.11</p>
+            </div>
+        </a>
+    </div>
+<a href="#" class="more-prices">View More Prices<span style="margin-left: 0.25rem;"><i class="fa fa-arrow-right"></i></span></a>
+</div>
+<div class="sidebar" id="sideBar">
+  <header class="sidebar-content">
+    <div class="sidebar-heading">
+    <img class="blockchain-img" src="images/blockchain.png" height=40 width=40>
+    <h2 style="color:black;font-weight: 800;">Blockchain</h2>
+    <h2 style="color:#656b75">.com</h2>
+  </div>
+  <div class="close-div">
+    <button class="close-btn" onclick="closeSideBar()"><img src="images/close.svg" class="filter"/></button>
+  </div>
+  
+  </header>
+  <div class="searchbar-container">
+    <div class="searchbar-wrapper">
+      <button class="sidebar-search"><img src="images/search.svg" /></button>
+      <input type="search" class="sidebar-search-input" placeholder="Search blocks, transactions, hash...">
+    </div> 
+  </div>
+  <section>
+    <div class="section-heading">
+      <h4 style="margin:0">PRODUCTS</h4>
+    </div>
+    <nav>
+      <ul>
+        <li class="products-list"><div class="products-info">
+          <div class="product-image">
+            <img src="images/exchange.svg" />
+          </div>
+          <div class="product-name">
+            <p style="font-size: 1rem;margin-bottom: 0.25rem;font-weight:500">Exchange</p>
+            <p style="font-size:0.825rem;color:rgb(80, 89, 107);font-weight:500">Professional trading</p>
+          </div>
+        </div></li>
+        <li class="products-list"><div class="products-info">
+          <div class="product-image">
+            <img src="images/wallet.svg" />
+          </div>
+          <div class="product-name">
+            <p style="font-size: 1rem;margin-bottom: 0.25rem;font-weight:500">Wallet</p>
+            <p style="font-size:0.825rem;color:rgb(80, 89, 107);font-weight:500">Buy & Sell Crypto</p>
+          </div>
+        </div></li>
+        <li class="products-list"><div class="products-info">
+          <div class="product-image">
+            <img src="images/explore.svg" />
+          </div>
+          <div class="product-name">
+            <p style="font-size: 1rem;margin-bottom: 0.25rem;font-weight:500">Explorer</p>
+            <p style="font-size:0.825rem;color:rgb(80, 89, 107);font-weight:500">Live Data, Charts & Transactions</p>
+          </div>
+        </div></li>
+        <li class="products-list"><div class="products-info">
+          <div class="product-image">
+            <img src="images/institutional.svg" />
+          </div>
+          <div class="product-name">
+            <p style="font-size: 1rem;margin-bottom: 0.25rem;font-weight:500">Institutional</p>
+            <p style="font-size:0.825rem;color:rgb(80, 89, 107);font-weight:500">Full-stack crypto services platform</p>
+          </div>
+        </div></li>
+      </ul>
+    </nav>
+  </section>
+  <section>
+    <div class="section-heading">
+      <h4 style="margin:0">RESOURCES</h4>
+    </div>
+    <nav>
+      <ul>
+        <li class="products-list">APIs</li>
+        <li class="products-list">Status</li>
+        <li class="products-list">Open Source</li>
+        <li class="products-list">Research</li>
+        <li class="products-list">Legal & Privacy</li>
+        <li class="products-list">Support</li>
+        <li class="products-list">Blog</li>
+        <li class="products-list">Security</li>
+        <li class="products-list">Podcast</li>
+      </ul>
+    </nav>
+  </section>
+  <section>
+    <div class="section-heading">
+      <h4 style="margin:0">COMPANY</h4>
+    </div>
+    <nav>
+      <ul>
+        <li class="products-list">About</li>
+        <li class="products-list">Careers<span class="badge">Hiring</span></li>
+        <li class="products-list">Press Center</li>
+        <li class="products-list">Prime</li>
+        <li class="products-list">Ventures</li>
+        <li class="products-list">BCAM</li>
+      </ul>
+    </nav>
+  </section>
+  <section>
+  <div class="section-heading">
+    <h4 style="margin:0"></h4>
+  </div>
+  <div class="section-heading">
+    <h4 style="margin:0"></h4>
+  </div>
+</section>
+  <div class="sidebar-footer" id="sidebarFooter">
+    <div class="footer-wrapper">
+    <div class="sidebar-buttons">
+      <a href ="#" class="sidebar-login-btn">Log In</a>
+      <a href="#" class="sidebar-signup-btn">Sign Up</a>
+    </div>
+  </div>
+  </div>
+</div>
+<div class="wallet-section wallet">
+  <div>
+<div class="wallet-info">
+    <div class="section-title-container">
+      <div class="section-title">
+        <img src="images/wallet.svg" /><p style="color:rgb(115, 73, 242);padding: 0;font-size: 18px;font-weight: 500;margin: 0;">Wallet</p>
+      </div>
+    </div>
+    <div class="wallet-desc">
+        <h1 style="color:rgb(115, 73, 242);font-size: 40px;font-weight: 500;">The Easiest and Most Powerful Crypto Wallet</h1>
+    </div>
+
+</div>
+<div class="wallet-img">
+
+</div>
+<div class="wallet-points wallet-bg" onclick="expandWalletInfo(this)" id="wallet-point-1">
+    <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(115, 73, 242);border-radius:10px;margin: 0;font-weight: 500;">Buy and Sell Crypto in Minutes</h3>
+    <p class="content">Instantly buy Bitcoin with credit card, debit card, or by linking your bank.</p>
+</div>
+<div class="wallet-points wallet-bg" onclick="expandWalletInfo(this)" id="wallet-point-2">
+    <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(115, 73, 242);border-radius:10px;margin: 0;font-weight: 500;">Earn up to 11% in rewards</h3>
+    <p class="content">Fund a Rewards Account with crypto and watch it grow.</p>
+</div>
+<div class="wallet-points wallet-bg" onclick="expandWalletInfo(this)" id="wallet-point-3">
+    <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(115, 73, 242);border-radius:10px;margin: 0;font-weight: 500;">Control your funds with Private Key Wallet</h3>
+    <p class="content">No one but you can access Private Key Wallets. Not even us.</p>
+</div>
+<div class="wallet-points wallet-bg" onclick="expandWalletInfo(this)" id="wallet-point-4">
+    <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(115, 73, 242);border-radius:10px;margin: 0;font-weight: 500;">At home or on the go</h3>
+    <p class="content">Manage your Wallet from a desktop, mobile, or both.</p>
+</div>
+<div class="wallet-points wallet-bg" onclick="expandWalletInfo(this)" id="wallet-point-5">
+    <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(115, 73, 242);border-radius:10px;margin: 0;font-weight: 500;">All your crypto in one place</h3>
+    <p class="content">View and manage your balance across the Wallet, the Exchange, and your hardware, all in your wallet dashboard.</p>
+</div>
+<div class="slideshow-container">
+  <div class="slideshow-inner">
+    <div class="mySlides fade">
+  
+      <img  src='./assets/img/web-crab-compressed.jpg' style='width: 100%;' alt="sally lightfoot crab"/>
+      <div class="text">Sally Lightfoot Crab</div>
+    </div>
+  
+    <div class="mySlides fade">
+  
+      <img  src='./assets/img/web-fighting-nazcas.jpg' style='width: 100%;' alt="fighting nazca boobies"/>
+      <div class="text">A scuffle between two Nazca Boobies</div>
+    </div>
+  
+    <div class="mySlides fade">
+  
+      <img  src='./assets/img/web-otovalo-waterfall.jpg' style='width: 100%;' alt="otovalo waterfall"/>
+      <div class="text">A waterfall discovered on a hike in Otovalo</div>
+    </div>
+  
+    <div class="mySlides fade">
+  
+      <img  src='./assets/img/web-pelican.jpg' style='width: 100%;' alt="pelican"/>
+      <div class="text">Pelican</div>
+    </div>
+    
+    </div>
+  
+  
+    <a class="prev" onclick='plusSlides(-1)'>&#10094;</a>
+    <a class="next" onclick='plusSlides(1)'>&#10095;</a>
+  </div>
+  <br/>
+  
+  
+  <div style='text-align: center;'>
+    <span class="dot" onclick='currentSlide(1)'></span>
+    <span class="dot" onclick='currentSlide(2)'></span>
+    <span class="dot" onclick='currentSlide(3)'></span>
+    <span class="dot" onclick='currentSlide(4)'></span>
+  </div>
+  
+  </div>
+<div style="margin: 3rem 0;">
+<a href="#" class="wallet-get-started-btn">Get Started</a>
+</div>
+</div>
+<div style="position: relative;padding-left: 80px;display: flex;align-items: center;justify-content: center;">
+  <div style="overflow:hidden">
+  <img src="images/wallet-buy@2x.png" id="wallet-image" width="353" height="576" class="info-image" />
+</div>
+</div>
+</div>
+<div class="wallet-section exchange">
+  <div>
+    <div class="wallet-info">
+        <div class="section-title-container" style="background-color: #ecf5fe;">
+          <div class="section-title">
+            <img src="images/exchange.svg" /><p style="color:rgb(61, 137, 245);padding: 0;font-size: 18px;font-weight: 500;margin: 0;">Exchange</p>
+          </div>
+          </div>
+        <div class="wallet-desc">
+            <h1 style="color:rgb(61, 137, 245);font-size: 40px;font-weight: 500;">Lightning-Fast Crypto Trading</h1>
+          </div>
+    
+    </div>
+    <div class="wallet-points exchange-bg" onclick="expandExchangeInfo(this)" id="exchange-point-1">
+        <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(61, 137, 245);border-radius:10px;margin: 0;font-weight: 500;">Trade in 3 fiat currencies</h3>
+        <p style="padding:0 1.25rem;cursor:pointer;color:rgb(61, 137, 245);">The Exchange supports USD, EUR, and GBP.</p>
+    </div>
+    
+    <div class="wallet-points exchange-bg"onclick="expandExchangeInfo(this)" id="exchange-point-2">
+        <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(61, 137, 245);border-radius:10px;margin: 0;font-weight: 500;">A matching engine that can keep up with you</h3>
+        <p style="padding:0 1.25rem;cursor:pointer;color:rgb(61, 137, 245);">The world’s fastest crypto matching engine, built by and for traders.</p>
+      </div>
+    <div class="wallet-points exchange-bg" onclick="expandExchangeInfo(this)" id="exchange-point-3">
+        <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(61, 137, 245);border-radius:10px;margin: 0;font-weight: 500;">24/7 live chat support</h3>
+        <p style="padding:0 1.25rem;cursor:pointer;color:rgb(61, 137, 245);">Chat with customer support directly in the Exchange, anytime.</p>
+      </div>
+    <div class="wallet-points exchange-bg" onclick="expandExchangeInfo(this)" id="exchange-point-4">
+        <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(61, 137, 245);border-radius:10px;margin: 0;font-weight: 500;">Margin Trading</h3>
+        <p style="padding:0 1.25rem;cursor:pointer;color:rgb(61, 137, 245);">More buying power means up to 5x the profit.</p>
+    </div>
+    <div style="margin: 3rem 0;">
+        <a href="#" class="wallet-trade-btn">Trade Now</a>
+        </div>
+      </div>
+      <div style="position: relative;padding-left: 80px;display: flex;align-items: center;justify-content: center;">
+        <div style="overflow:hidden">
+        <img src="images/exchange-fiat-currencies.png" id="exchange-image" width="353" height="576" class="info-image" />
+      </div>
+      </div>
+    </div>
+    <div class="wallet-section institutional">
+      <div>
+        <div class="wallet-info">
+            <div class="section-title-container" style="background-color:#dfe3eb">
+              <div class="section-title">
+                <img src="images/institutional.svg" /><p style="color:rgb(103, 113, 133);padding: 0;font-size: 18px;font-weight: 500;margin: 0;">Institutional</p>
+              </div>
+              </div>
+            <div class="wallet-desc">
+                <h1 style="max-width: 30.5rem;font-size: 40px;font-weight: 500;">Bespoke crypto lending, trading, and custody for institutions</h1>
+                <p style="max-width: 30.5rem;">Blockchain.com Institutional Markets is a full-stack crypto services platform that works with crypto-native businesses and institutional clients on lending, trading, and custody solutions tailored to your needs.</p>
+            </div>
+        
+        </div>
+        <div class="wallet-img">
+        
+        </div>
+        <div style="margin: 3rem 0;">
+            <a href="#" class="wallet-client-btn">Become a client</a>
+            </div>
+          </div>
+        </div>
+        <div class="wallet-section explore">
+          <div>
+            <div class="wallet-info">
+                <div class="section-title-container" style="background-color: #fff2e5;">
+                  <div class="section-title">
+                    <img src="images/explore.svg" /><p style="color:rgb(242, 139, 36);padding: 0;font-size: 18px;font-weight: 500;margin: 0;">Explore</p>
+                  </div>
+                  </div>
+                <div class="wallet-desc">
+                    <h1 style="color:rgb(242, 139, 36);font-size: 40px;font-weight: 500;">Blockchain Data is in Our DNA</h1>
+                </div>
+            
+            </div>
+            <div class="wallet-img">
+            
+            </div>
+            <div class="wallet-points explore-bg" onclick="expandExploreInfo(this)" id="explore-point-1">
+                <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(242, 139, 36);border-radius:10px;margin: 0;font-weight: 500;">Explore the top blockchains</h3>
+                <p style="padding:0 1.25rem;cursor:pointer;color:rgb(242, 139, 36);">Confirm transactions, analyze the market, or simply learn more about crypto.</p>
+            </div>
+            <div class="wallet-points explore-bg" onclick="expandExploreInfo(this)" id="explore-point-2">
+                <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(242, 139, 36);border-radius:10px;margin: 0;font-weight: 500;">Powerful Blockchain Data API</h3>
+                <p style="padding:0 1.25rem;cursor:pointer;color:rgb(242, 139, 36);">We’ve powered exchanges, data analysts, enthusiasts, and more.</p>
+            </div>
+            <div class="wallet-points explore-bg" onclick="expandExploreInfo(this)" id="explore-point-3">
+                <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(242, 139, 36);border-radius:10px;margin: 0;font-weight: 500;">Industry-leading charts</h3>
+                <p style="padding:0 1.25rem;cursor:pointer;color:rgb(242, 139, 36);">From hashrate, to block details, to mining information, and more.</p>
+            </div>
+            <div class="wallet-points explore-bg" onclick="expandExploreInfo(this)" id="explore-point-4">
+                <h3 style="padding:1rem 1.25rem;cursor:pointer;color:rgb(242, 139, 36);border-radius:10px;margin: 0;font-weight: 500;">Real-time crypto prices</h3>
+                <p style="padding:0 1.25rem;cursor:pointer;color:rgb(242, 139, 36);">Get the latest prices and charts along with key market signals.</p>
+            </div>
+            <div style="margin: 3rem 0;">
+                <a href="/" class="wallet-explore-btn">Explore Now</a>
+                </div>
+              </div>
+              <div style="position: relative;padding-left: 80px;display: flex;align-items: center;justify-content: center;">
+                <div style="overflow:hidden">
+                <img src="images/wallet-buy@2x.png" id="explore-image" width="353" height="576" class="info-image"  />
+              </div>
+              </div>
+            </div>
+            <div class="banner">
+                <div class="banner-content">
+<h1 style="padding: 0;margin: 0 2rem 0 0;font-size: 2.5rem;font-weight: 500;">From zero to crypto in minutes</h1>
+<a href="#" class="banner-get-started">Get started</a>
+                </div>
+            </div>
+            <div class="floating-action-section">
+                <button class="floating-action-btn">
+                    <img src="images/spinningIcons.gif" height="40" width="50"/>
+                    <!-- <p class="floating-action-text">Buy Crypto</p> -->
+                </button>
+            </div>
+            <footer class="footer">
+                <div class="footer-list">
+                  <ul>
+                    <h1 class="list-title">Blockchain</h1>
+                    <li>
+                        <a href="#" class="footer-links"><img src="images/Twitter-logo.svg.webp" width="25" height="20" /><span class="app-name">Twitter</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-links"><img src="images/174855.png" width="25" height="25" /><span class="app-name">Instagram</span></a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-links"><img src="images/iconmonstr-medium-1.png" width="25" height="20" /><span  class="app-name">Medium</span></a>
+                    </li>
+                  </ul>
+                </div>
+          
+                <div class="footer-list">
+                  <ul>
+                    <h3 class="list-title">Products</h3>
+                    <li>
+                      <a href="#" class="footer-links">Wallet</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer-links">Exchange</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer-links">Explorer</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer-links">Institutional</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-links">Learn</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Prices</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Charts</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">NFT</a>
+                      </li>
+                  </ul>
+                </div>
+          
+                <div class="footer-list">
+                  <ul>
+                    <h3 class="list-title">Resources</h3>
+                    <li>
+                      <a href="#" class="footer-links">APIs</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer-links">Status</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer-links">Open source</a>
+                    </li>
+                    <li>
+                      <a href="#" class="footer-links">Research</a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer-links">Legal & Privacy</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Wallet Support</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Exchange Support</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Blog</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Security</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Podcast</a>
+                      </li>
+                  </ul>
+                </div>
+                <div class="footer-list">
+                    <ul>
+                      <h3 class="list-title">Company</h3>
+                      <li>
+                        <a href="#" class="footer-links">About</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Careers<span class="badge">Hiring</span></a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Press Center</a>
+                      </li>
+                      <li>
+                        <a href="#" class="footer-links">Prime</a>
+                      </li>
+                      <li>
+                          <a href="#" class="footer-links">Ventures</a>
+                        </li>
+                        <li>
+                          <a href="#" class="footer-links">BCAM</a>
+                        </li>
+                    </ul>
+                  </div>
+              </footer>
+            
+</body>
+
+</html>
